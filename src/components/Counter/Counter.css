@@ -1,0 +1,102 @@
+.container {
+  background: rgba(0, 0, 0);
+  border: 1px solid rgba(255, 255, 255, 0.1);
+  border-radius: 12px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.container h3 {
+  margin-top: 0;
+  color: #646cff;
+  text-align: center;
+}
+
+.counter-display {
+  text-align: center;
+  margin: 2rem 0;
+}
+
+.count-value {
+  font-size: 3rem;
+  font-weight: bold;
+  color: #fff;
+  text-shadow: 0 0 10px rgba(255, 255, 255, 0.3);
+}
+
+.counter-controls {
+  display: flex;
+  gap: 0.5rem;
+  justify-content: center;
+  margin: 1.5rem 0;
+}
+
+.btn {
+  padding: 0.75rem 1.5rem;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.btn-primary {
+  background: #646cff;
+  color: white;
+}
+
+.btn-primary:hover {
+  background: #5a5fcf;
+}
+
+.btn-secondary {
+  background: #f39c12;
+  color: white;
+}
+
+.btn-secondary:hover {
+  background: #e67e22;
+}
+
+.btn-danger {
+  background: #e74c3c;
+  color: white;
+}
+
+.btn-danger:hover {
+  background: #c0392b;
+}
+
+.step-control {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  margin-top: 1.5rem;
+}
+
+.step-control label {
+  color: #ccc;
+  font-size: 0.9rem;
+}
+
+.step-input {
+  padding: 0.5rem;
+  border: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 4px;
+  background: rgba(255, 255, 255, 0.1);
+  color: white;
+  width: 80px;
+  text-align: center;
+}
+
+.milestone {
+  background: linear-gradient(45deg, #ffd700, #ffed4e);
+  color: #333;
+  padding: 1rem;
+  border-radius: 8px;
+  text-align: center;
+  margin-top: 1rem;
+  font-weight: 600;
+}

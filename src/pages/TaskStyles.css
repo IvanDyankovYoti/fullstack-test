@@ -1,0 +1,211 @@
+.task-container {
+  margin: 0 auto;
+  padding: 2rem;
+  background: #ffffff;
+}
+
+.task-header {
+  text-align: center;
+  margin-bottom: 3rem;
+}
+
+.task-header h2 {
+  color: #333333;
+  font-size: 2.5rem;
+  margin: 0 0 1rem 0;
+}
+
+.task-description {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 1.5rem;
+  margin: 1rem auto;
+  max-width: 600px;
+}
+
+.task-description p {
+  margin: 0.5rem 0;
+  color: #555555;
+  font-size: 1.1rem;
+}
+
+.bugs-list, .expected-behavior, .testing-tasks, .backend-tasks {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.bugs-list h3, .expected-behavior h3, .testing-tasks h3, .backend-tasks h3 {
+  color: #0066cc;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.bugs-list ul, .expected-behavior ul, .testing-tasks ol, .backend-tasks ol {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.bugs-list li, .expected-behavior li, .testing-tasks li, .backend-tasks li {
+  margin: 0.75rem 0;
+  color: #333333;
+  font-size: 1rem;
+  line-height: 1.4;
+}
+
+.component-demo {
+  background: #f0f7ff;
+  border: 2px solid #cce7ff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 3rem 0;
+}
+
+.component-demo h3 {
+  color: #0066cc;
+  margin-top: 0;
+  margin-bottom: 2rem;
+  text-align: center;
+}
+
+.hints {
+  background: #fff3cd;
+  border: 1px solid #ffeaa7;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.hints h3 {
+  color: #856404;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.hints ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.hints li {
+  margin: 0.5rem 0;
+  color: #333333;
+  font-size: 0.95rem;
+}
+
+.test-commands, .server-setup, .api-testing {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.test-commands h3, .server-setup h3, .api-testing h3 {
+  color: #dc3545;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.code-block {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 4px;
+  overflow-x: auto;
+}
+
+.code-block pre {
+  margin: 0;
+  padding: 1rem;
+  color: #333333;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+  line-height: 1.4;
+  white-space: pre-wrap;
+}
+
+.test-coverage, .test-todos {
+  background: #f8f9fa;
+  border-left: 4px solid #28a745;
+  padding: 1.5rem;
+  margin: 2rem 0;
+}
+
+.test-todos {
+  border-left-color: #ffc107;
+}
+
+.test-coverage h3, .test-todos h3 {
+  color: #28a745;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.test-todos h3 {
+  color: #856404;
+}
+
+.testing-skills {
+  background: #e7f3ff;
+  border: 1px solid #b3d9ff;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.testing-skills h3 {
+  color: #0066cc;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.database-schema, .file-structure {
+  background: #f8f9fa;
+  border: 1px solid #e0e0e0;
+  border-radius: 8px;
+  padding: 2rem;
+  margin: 2rem 0;
+}
+
+.database-schema h3, .file-structure h3 {
+  color: #6f42c1;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.file-structure ul {
+  margin: 0;
+  padding-left: 1.5rem;
+}
+
+.file-structure li {
+  margin: 0.5rem 0;
+  color: #333333;
+  font-family: 'Courier New', monospace;
+  font-size: 0.9rem;
+}
+
+@media (max-width: 768px) {
+  .task-container {
+    padding: 1rem;
+  }
+
+  .task-header h2 {
+    font-size: 2rem;
+  }
+
+  .bugs-list, .expected-behavior, .testing-tasks, .backend-tasks {
+    padding: 1.5rem;
+  }
+
+  .component-demo {
+    padding: 1.5rem;
+  }
+
+  .code-block pre {
+    font-size: 0.8rem;
+  }
+}
