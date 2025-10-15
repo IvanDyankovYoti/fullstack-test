@@ -29,9 +29,7 @@ npm install
 
 # Start the Express server
 npm start
-
-# Server runs on http://localhost:3001
-# Health check: http://localhost:3001/api/health`}</pre>
+`}</pre>
         </div>
       </div>
 
