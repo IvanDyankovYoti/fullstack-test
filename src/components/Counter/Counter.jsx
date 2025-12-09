@@ -1,19 +1,16 @@
 import { useState } from 'react'
 import './Counter.css'
 
-// HINT: This component has 3 bugs - check state management, event handlers, and rendering logic
 function Counter() {
   const [count, setCount] = useState(0)
   const [step, setStep] = useState(1)
 
-  // BUG 1: Incorrect increment logic - closure issue
   const increment = () => {
-    setCount(count + step) // This won't work as expected in strict mode
+    setCount(count + step)
   }
 
-  // BUG 2: Missing event parameter
   const handleStepChange = () => {
-    setStep(event.target.value) // 'event' is not defined
+    setStep(event.target.value)
   }
 
   const reset = () => {

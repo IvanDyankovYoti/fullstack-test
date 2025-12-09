@@ -16,7 +16,6 @@ function UserCardServer() {
     try {
       setLoading(true)
       setError(null)
-      // Fetch from local server instead of external API
       const response = await fetch('http://localhost:3001/api/user/1')
       const userData = await response.json()
 
